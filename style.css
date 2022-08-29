@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@font-face {
+    font-family: 'copied1';
+    src: url(assets/fonts/Anton-Regular.ttf);
+}
+
+
+
+
+
+article p {
+    font-weight: bold;
+    background-color: blue;
+    color: rgb(15, 6, 24);
+    padding: .5em; 
+    
+}
+
+
+
+
+div>p {
+    font-family: 'copied1';
+    font-weight: 900;
+    background-color: brown;
+    color: aquamarine;
+} 
+
+
+
+
+.text {
+    height: 100px;
+    width: 60px;
+    background-color: brown;
+    padding: 10px;
+    border: 60px solid tan;
+    border-radius: 70%;  
+}
+
+
+.text>p {
+    color: black;
+    font-style: italic;
+    font-family: 'Rubik Maze', cursive;
+}
+
+
+
+.homer>h4 {
+    font-size: 60px;
+    color: red;
+    font-family: 'Rubik Maze', cursive;
+    background-color: rgb(46, 14, 163);
+    width: 200px;
+    height: 200px;
+}
+.marge>p {
+    width: 100px;
+    height: 100px;
+    font-family:'copied1';
+    background-color: black;
+    color: blue;
+    
+}
+.parent
+{
+    display: flex;
+}
